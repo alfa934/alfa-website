@@ -1,0 +1,113 @@
+/**************** GENERAL ****************/
+
+/***** Gruvbox Colour Palette *****
+#282828 - background
+#EBDBB2 - foreground
+#CC241D - red
+#98971A - green
+#D79921 - yellow
+#458588 - blue
+#B16286 - purple
+#689D6A - aqua
+#A89984 - grey
+***********************************/
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #282828;
+}
+
+.web-container {
+    max-width: max-content;
+    margin: 0; 
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+/* NAVBAR */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #A89984; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */ 
+    padding-top: 6rem; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+    
+/* The navigation menu links */
+.sidenav a {
+  padding: 16px 16px 16px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #282828;
+  display: block;
+  transition: 0.3s;
+}
+    
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #EBDBB2;
+}
+
+.sidenav #navBtn1:hover {
+    background-color: #CC241D;
+}
+
+.sidenav #navBtn2:hover {
+    background-color: #98971A;
+}
+
+.sidenav #navBtn3:hover {
+    background-color: #D79921;
+}
+
+.sidenav #navBtn4:hover {
+    background-color: #458588;
+}
+    
+/* Position and style the close button (top right corner) */
+.sidenav #closebtn {
+  position: absolute;
+  top: 0;
+  left: 130px;
+  font-size: 60px;
+  margin-left: 50px;
+  display: block;
+}
+
+#nav-toggle {
+    color: #EBDBB2;
+    position: absolute;
+    z-index: 1;
+    top: 1rem;
+    right: 2rem;
+    font-size: 60px;
+    cursor: pointer;
+    display: block;
+}
+
+/* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
+main .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+main h1 {
+    color: #EBDBB2;
+}

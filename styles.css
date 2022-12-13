@@ -109,5 +109,8 @@ main .title {
 }
 
 main h1 {
-    color: #EBDBB2;
+    color: #282828;
+    background-color: #928374;
+    padding: 1rem;
+    border-radius: 7px;
 }

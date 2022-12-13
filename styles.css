@@ -62,6 +62,10 @@ body {
     color: #EBDBB2;
 }
 
+.sidenav #homeBtn:hover {
+    background-color: #928374;
+}
+
 .sidenav #navBtn1:hover {
     background-color: #CC241D;
 }
@@ -110,7 +114,26 @@ main .title {
 
 main h1 {
     color: #282828;
-    background-color: #928374;
     padding: 2rem;
     border-radius: 7px;
+}
+
+#title1 {
+    background-color: #928374;
+}
+
+#title2 {
+    background-color: #CC241D;
+}
+
+#title3 {
+    background-color: #98971A;
+}
+
+#title4 {
+    background-color: #D79921;
+}
+
+#title5 {
+    background-color: #458588;
 }

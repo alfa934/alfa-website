@@ -12,18 +12,22 @@
 <body>
     <div class="web-container">
         <div id="mySidenav" class="sidenav">
-            <a class="noselect" href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
-            <a class="noselect" id="homeBtn" href="index.html"><b>Home</b></a>
-            <a class="noselect" id="navBtn1" href="about.html"><b>About</b></a>
-            <a class="noselect" id="navBtn2" href="news.html"><b>News</b></a>
-            <a class="noselect" id="navBtn3" href="random.html"><b>Random</b></a>
-            <a class="noselect" id="navBtn4" href="socials.html"><b>Socials</b></a>
+            <div class="noselect">
+                <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+                <a id="homeBtn" href="index.html"><b>Home</b></a>
+                <a id="navBtn1" href="about.html"><b>About</b></a>
+                <a id="navBtn2" href="news.html"><b>News</b></a>
+                <a id="navBtn3" href="random.html"><b>Random</b></a>
+                <a id="navBtn4" href="socials.html"><b>Socials</b></a>
+            </div>
         </div>
         <div class="noselect" id="nav-toggle" onclick="openNav()">&equiv;</div>
         <main>
             <div class="title">
                 <div class="noselect">
-                    <h1 id="title1">M. Aushaf Al Farras </h1>
+                    <a id="title1" href="about.html">
+                        <h1 id="title1">M. Aushaf Al Farras</h1>
+                    </a>
                 </div>
             </div>
         </main>

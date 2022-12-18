@@ -18,6 +18,12 @@ body {
     background-color: #282828;
 }
 
+p {
+    color: #EBDBB2;
+    font-size: medium;
+    font-weight: 500;
+}
+
 .web-container {
     max-width: max-content;
     margin: 0; 
@@ -33,7 +39,7 @@ body {
                                     supported by Chrome, Edge, Opera and Firefox */
   }
 
-/* NAVBAR */
+/* NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR */
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -102,8 +108,9 @@ body {
     cursor: pointer;
     display: block;
 }
+/* NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR */
 
-/* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
+/* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
 main .title {
     position: absolute;
     top: 50%;
@@ -120,6 +127,14 @@ main h1 {
 
 #title1 {
     background-color: #928374;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+#title1:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #EBDBB2;
 }
 
 #title2 {
@@ -137,3 +152,5 @@ main h1 {
 #title5 {
     background-color: #458588;
 }
+
+/* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */

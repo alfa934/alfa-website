@@ -10,5 +10,5 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("nav-toggle").style.display = "block";
     document.getElementById("closebtn").style.display = "none";
-} 
+}
 
